@@ -1,0 +1,10 @@
+name: PortalTeleport
+main: Eliah\portal
+version: 1.0.0
+api: [3.0.0, 4.0.0]
+author: Eliah
+commands:
+  setend:
+    description: "Set a position where a player should be teleported while walking through a portal."
+    aliases: [se]
+    permission: portalteleport.setend
